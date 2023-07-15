@@ -30,7 +30,7 @@ a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #fe8e5e;
 }
 
 .demo {
@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 .link a:hover {
-    text-decoration: underline;
+    color: #fe8e5e;
 }
 
 .DemoStudio {
@@ -137,3 +137,4 @@ nav a:hover {
         height: 20px;
     }
 }
+
