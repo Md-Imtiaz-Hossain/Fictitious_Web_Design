@@ -3,12 +3,12 @@ body{
     text-align: center;
     margin-left: 10%;
     margin-right: 10% ;
-    background: linear-gradient( #FFF2DC, white, #FFF2DC);
+    background: linear-gradient( #fcb73b, white, #f6b751);
     font-family: sans-serif;
+
 }
 
-/*...............*/
-
+/*.......Header........*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -27,6 +27,7 @@ a {
     padding: 5px;
     font-size: 20px;
     color: black;
+    border-radius: 4px;
 }
 
 nav a:hover {
@@ -72,19 +73,27 @@ nav a:hover {
 
 
 
-/*...............*/
+/*........Main Content _ Index .......*/
 
 .main-content {
     width: 100%;
-    height: 80vh;
+    height: fit-content;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
 }
 
+.paragraph{
+    text-align: justify;
+}
 
-/*.....................*/
+.features.feature.p{
+    text-align: justify;
+}
+
+/*.......... Footer ...........*/
 
 .link {
     display: flex;
