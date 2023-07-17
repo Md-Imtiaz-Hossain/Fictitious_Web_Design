@@ -3,6 +3,13 @@
 /* -------------------------- */
 /* Made by _________________ */
 /* -------------------------- */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   align-items: center;
   text-align: center;
@@ -90,10 +97,10 @@ nav a:hover {
 
 .social-media {
   filter: none;
-  transition: filter 0.2s ease-in;
+  transition: scale 0.2s ease-in;
 }
 .social-media:hover {
-  filter: invert();
+  scale: 1.25;
 }
 
 /*........Main Content _ Index .......*/
@@ -243,4 +250,3 @@ nav a:hover {
     /* flex-wrap: wrap; */
   }
 }
-

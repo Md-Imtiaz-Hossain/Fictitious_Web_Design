@@ -21,3 +21,7 @@ Page-5
 ![img_4.png](req/img_4.png)
 
 ls about each of these pages are given in the following sections.
+
+### [Randomize in Array](https://dev.to/codebubb/how-to-shuffle-an-array-in-javascript-2ikj)
+
+### [Get click position in canvas](https://stackoverflow.com/questions/55677/how-do-i-get-the-coordinates-of-a-mouse-click-on-a-canvas-element)
