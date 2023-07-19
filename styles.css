@@ -180,6 +180,16 @@ nav a:hover {
   gap: 10px;
 }
 
+/*........Main Content _ accessibility .......*/
+/*.......................................*/
+
+.main-content-accessibility {
+  height: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
 
 
 /*.......... Footer ...........*/
