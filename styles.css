@@ -104,6 +104,7 @@ nav a:hover {
 }
 
 /*........Main Content _ Index .......*/
+/*.......................................*/
 
 .main-content {
   width: 100%;
@@ -165,6 +166,21 @@ nav a:hover {
     flex-wrap: wrap;
   }
 }
+
+/*........Main Content _ news .......*/
+/*.......................................*/
+
+.main-content-news {
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+
 
 /*.......... Footer ...........*/
 
