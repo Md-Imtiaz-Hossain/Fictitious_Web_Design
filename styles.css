@@ -332,6 +332,8 @@ p {
 
 .main-content-contact {
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-content-contact section {
@@ -389,6 +391,12 @@ p {
 
 .main-content-contact button[type='submit']:hover {
   background-color: #ff613b;
+}
+
+@media (min-width: 600px) {
+  .main-content-contact section {
+    max-width: 50%;
+  }
 }
 
 /*.......... Footer ...........*/
