@@ -276,6 +276,7 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
   gap: 10px;
+  text-align: left;
 }
 
 /*........Main Content _ design .......*/
@@ -311,8 +312,21 @@ p {
 /*......................................*/
 
 /*......Main Content _ legal-security .......*/
+.main-content-legal-security {
+  text-align: left;
+  margin: 20px 0px;
+}
 /*...........................................*/
 
+/*........Main Content _ Testing .......*/
+.main-content-testing {
+  text-align: left;
+  margin: 20px 0px;
+}
+.main-content-testing > section {
+  margin: 5px 0px;
+}
+/*.........................................*/
 /*........Main Content _ contact us .......*/
 /*.........................................*/
 
