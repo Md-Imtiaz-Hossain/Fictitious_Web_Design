@@ -171,6 +171,56 @@ nav {
 }
 
 /*........Main Content _ founders .......*/
+.main-content-founder {
+  display: flex;
+  flex-direction: column;
+}
+.summary {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.summary > h2,
+p {
+  margin: 5px 0;
+}
+.founders {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.founder > img {
+  max-width: 150px;
+}
+
+@media (min-width: 600px) {
+  .main-content-founder {
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .summary {
+    max-width: 30%;
+  }
+  .founders {
+    max-width: 30%;
+  }
+  .founder > img {
+    max-width: 150px;
+  }
+}
+
 /*....................................*/
 
 /*........Main Content _ news .......*/
