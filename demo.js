@@ -91,6 +91,8 @@ canvas.addEventListener('click', function (event) {
     } else {
       disableClick = true;
       setTimeout(() => {
+        clearCell(clickedRectX, clickedRectY);
+        clearCell(currentlySelected.x, currentlySelected.y);
         drawImageOnCell(clickedRectX, clickedRectY);
         drawImageOnCell(currentlySelected.x, currentlySelected.y);
         disableClick = false;
@@ -111,8 +113,6 @@ canvas.addEventListener('click', function (event) {
       maxHeight / 2 - 10
     );
   }
-
-  // context.strokeRect(0, 0, maxWidth, maxHeight);
 });
 
 function randomizeWords() {
@@ -202,6 +202,10 @@ function drawImageOnCell(x, y) {
     xOffset - 1,
     yOffset - 1
   );
+}
+
+function clearCell(x, y) {
+  context.clearRect(x * xOffset + 1, y * yOffset + 1, xOffset - 1, yOffset - 1);
 }
 
 window.onload = drawAllImage;
