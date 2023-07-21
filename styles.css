@@ -76,6 +76,10 @@ nav {
   font-size: 30px;
 }
 
+.active {
+  color: #fe8e5e;
+}
+
 /* Responsive Styles */
 @media (min-width: 600px) {
   .header {
@@ -445,6 +449,10 @@ p {
 .footer-links > a:active {
   color: rgb(41, 40, 43);
   background-color: transparent;
+}
+
+.footer-links > a.active{
+  color: #fe8e5e;
 }
 
 .social-right {
