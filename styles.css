@@ -410,13 +410,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   align-items: center;
   margin-top: 15px;
-}
-
-.link a:hover {
-  color: #fe8e5e;
 }
 
 .demo-studio {
@@ -430,14 +425,13 @@ p {
   font-size: 0.75em;
   width: 100%;
   text-align: center;
+  margin-bottom: 10px;
 }
+
 .footer-links {
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
-  margin: 10px 0px;
+  flex-direction: column; /* Change to stack links vertically */
+  gap: 10px; /* Gap between links */
 }
 
 .footer-links > a {
@@ -446,18 +440,13 @@ p {
   color: rgb(41, 40, 43);
 }
 
-.footer-links > a:active {
-  color: rgb(41, 40, 43);
+.footer-links > a:hover {
+  color: #fe8e5e;
   background-color: transparent;
 }
 
-.footer-links > a.active{
+.footer-links > a.active {
   color: #fe8e5e;
-}
-
-.social-right {
-  align-items: center;
-  text-align: center;
 }
 
 .icon {
@@ -471,30 +460,28 @@ p {
   height: 30px;
 }
 
+.footer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Responsive Styles */
 @media (min-width: 600px) {
   .link {
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .DemoStudio {
-    font-size: 30px;
-    margin-top: 0;
+  .footer-links {
+    flex-direction: row; /* Change back to horizontal layout on larger screens */
+    gap: 20px; /* Adjust gap between links */
+    margin: 0; /* Reset margin */
   }
 
   .icon img {
-    margin: 10px;
-    width: 20px;
-    height: 20px;
-  }
-
-  .about-us {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .about-us > div {
-    width: 100%;
+    margin: 0 20px 0 0;
+    width: 30px;
+    height: 30px;
   }
 }
