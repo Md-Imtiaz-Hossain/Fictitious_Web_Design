@@ -39,21 +39,20 @@ controlled by stylesheets, and you should use @media queries in a structured way
 The source code should be well-organized with appropriate comments, demonstrating your understanding of web development
 principles.
 
-# -----------------------------------------------------------------------
+# ------------------------------------------------------
 
 ## Requirements Page-1
 
-![img.png](req/img.png)
+![com1008_resit-1.jpg](req%2Fcom1008_resit-1.jpg)
 
 ## Requirements Page-2
-
-![img_1.png](req/img_1.png)
+![com1008_resit-2.jpg](req%2Fcom1008_resit-2.jpg)
 
 ## Requirements Page-3
 
 ![img_3.png](req%2Fimg_3.png)
 
-# -----------------------------------------------------------------------
+# ------------------------------------------------------
 
 ## Website image - 1 (index.html)
 
