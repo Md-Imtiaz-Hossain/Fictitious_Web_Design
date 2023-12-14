@@ -1,23 +1,20 @@
 # Fictitious_Web_Design
 
-Page-1
-
+## Requirements Page-1
 ![img.png](req/img.png)
 
-Page-2
-
+## Requirements Page-2
 ![img_1.png](req/img_1.png)
 
-Page-3
+## Requirements Page-3
+![img_3.png](req%2Fimg_3.png)
 
-![img_2.png](req/img_2.png)
+## Website image - 1 (index.html)
+![img.png](pagedesign%2Fimg.png)
 
-Page-4
+## Website image - 1 (legal-security.html)
 
-![img_3.png](req/img_3.png)
 
-Page-5
 
-![img_4.png](req/img_4.png)
 
-ls about each of these pages are given in the following sections.
+
