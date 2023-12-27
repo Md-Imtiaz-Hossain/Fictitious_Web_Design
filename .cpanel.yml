@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/iimtiazc/imtiaz.com/
+    - /bin/cp * $DEPLOYPATH
