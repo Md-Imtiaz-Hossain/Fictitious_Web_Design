@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/iimtiazc/imtiaz.com/
+    - export DEPLOYPATH=/home/iimtiazc/public_html/
     - /bin/cp * $DEPLOYPATH
